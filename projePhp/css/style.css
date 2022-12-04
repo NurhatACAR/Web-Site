@@ -1,0 +1,270 @@
+*{
+   box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 18px;
+    text-shadow: 4px 4px 4px #aaa;
+    margin: 0;
+  }
+  #menu{
+   height: 80px;
+   padding: 0 20px;
+  }
+  #logo{
+    font-size: 50px;
+    line-height: 80px;
+    color: #855f07;
+    float: left;
+  }
+
+  nav{
+    float: right;
+    line-height: 80px;
+  }
+
+  nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #855f07;
+
+  }
+
+  nav a:hover{
+    border-bottom: 2px solid #855f07;
+  }
+
+  nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #855f07;
+  }
+
+  .ikon{
+    margin-right: 7px;
+    font-size: 32px;
+  }
+  #anasayfa{
+    height: 400px;
+    background-image: url("../img/mardin4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  #black{
+    height: 400px;
+    background-color: black;
+    opacity: 0.5;   
+  }
+  #içerik{
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    color: wheat;
+    font-size: 20px;
+  }
+  #içerik p{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #hakkimizda{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  h3{
+    font-size: 55px;
+    color: #855f07;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+  }
+  .container{
+    width: 1000px;
+    height: auto;
+    margin: auto;    
+  }
+  #sol{
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 30px;
+    width: 400px;
+    color: #855f07;
+  }
+  #h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  #h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+  span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #855f07;
+    font-weight: 600;
+    float: left;
+  }
+  #sag{
+    float: right;
+    width: 600px;  
+    color: #999999; 
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .img-fluid{
+    max-width: 90%;
+    height: auto;
+  }
+  .mt100{
+    margin-top: 100px;
+  }
+  #pson{
+    color: #999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  #egitimler{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+  }
+  .card{
+    width: 320px;
+    height: 350px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+  
+  }
+  .baslikcard{
+    font-size: 25px;
+    color: #855f07;
+    
+  }
+  .card:hover{
+    border: 1px solid #855f07;
+  }
+  .social{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px 10px;
+  }
+
+  .social:hover{
+    background-color: #888;
+  }
+  #iletisim{
+    background: url("../img/mardin3.webp");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+  }
+  #h3iletisim{
+    color: #445c6e;
+  }
+  #iletisimopak{
+    background: rgba(184, 161, 126, 0.6);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+  }
+  #formgrup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+
+  }
+  #solform{
+    width: 50%;
+    float: left;
+    padding-right:5px ;
+  }
+  #sagform{
+    width: 50%;
+    float: right  ;
+    padding-left: 5px;
+  }
+  .form-control{
+    width: 100%;
+    padding:10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+
+  textarea{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  input[type="submit"]{
+    cursor: pointer;
+    background-color: #cfc126;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+  }
+  #adres{
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+  }
+  #adresbaslik{
+    font-size: 30px;
+    color: wheat;
+  }
+  .adresp{
+    color: #ddd;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+
+  }
+  #copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+
+  }
+  #up{
+    color: rgb(223, 196, 19);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:50%;
+    font-size: 15px;
+    padding: 9px 12px;
+    margin-top: 20px;
+  }
